@@ -45,6 +45,7 @@ def veriekle():
         )
     bag.commit()
     bag.close()
+    tk.messagebox.showinfo(message="Kayıt tamamlandı")
 
 form = tk.Tk()
 form.title("veri giriş formu")
